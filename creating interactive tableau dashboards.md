@@ -148,3 +148,56 @@
 
 ## Filters
 
+## Color
+
+* should enhance the data
+* should come from questions
+* don't use color just because you can
+* should enhance, not distract
+
+
+
+Dashboard: not single a sheet, it's a collection of sheets in order to answer a specific question, or to provide a better view
+
+
+
+## Chart Junk
+
+* Data ink ratio = ink used for the data / total ink used
+* Space is precious
+* Every element should contribute
+* Delete it if it doesn't enhance the data
+
+
+
+## Action Types
+
+* Filter
+  * Select one or multiple marks to filter other sheets
+  * can be created in one click
+  * unlike standard filters, does not affect dashboard performance
+  * filter is only applied when user clicks
+* Highlight
+  * work similar to filter actions
+  * select one mark or multiple marks
+  * highlight corresponding marks in other sheets
+  * must have the same dimension in the detail of each sheet
+* URL
+  * a mark can open a web browser
+  * add data from the mark to the URL
+  * work beast as a menu selection
+  * include more data without being part of the dashboard
+* Go to
+  * navigate between dashboards
+  * no need to cram a dashboard with every detail
+  * keep dashboards clean and simple
+  * make use of button objects 
+* Set
+  * update the values in an existing set based on user actions
+  * sets group data into two groups; in or out
+  * easy to compare one group against another
+* Parameter
+  * take user input and change views
+  * select a data point as new input
+  * work as a standard parameter value
+  * eg. Dynamic reference lines or advanced highlighting
